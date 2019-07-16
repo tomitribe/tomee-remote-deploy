@@ -111,6 +111,7 @@
         <artifactId>tomee-maven-plugin</artifactId>
         <version>${tomee.version}</version>
         <configuration>
+          <config>${project.basedir}/src/test/tomee/conf</config>
           <tomeeVersion>${tomee.version}</tomeeVersion>
           <tomeeClassifier>plus</tomeeClassifier>
           <systemVariables>
